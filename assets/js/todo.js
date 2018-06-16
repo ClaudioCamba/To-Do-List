@@ -21,6 +21,6 @@ $("input[type='text']").keypress(function(event){
   }
 })
 
-$(".fa-pencil-alt").click(function(){
-  $("input[type='text']").fadeToggle(250);
+$("#toggle-form").click(function(){
+	$("input[type='text']").fadeToggle();
 });
